@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Books - BookVerse</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>📚 BookVerse</h1>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="books.html">Books</a>
+    <a href="cart.html">Cart</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<section class="books-page">
+
+<h2>Our Book Collection</h2>
+
+<input type="text"
+       id="searchBox"
+       placeholder="Search books..."
+       onkeyup="searchBooks()"
+       class="search">
+
+<h2>📖 Fiction</h2>
+
+<div class="book-grid">
+
+    <div class="book-card book-item">
+        <img src="images/ishqiya.jpg" alt="Isqiya">
+        <h3>Ishqiya</h3>
+        <p>₹399</p>
+        <button onclick="addToCart('Ishqiya',399)">Add To Cart</button>
+    </div>
+
+    <div class="book-card book-item">
+        <img src="images/rooh.jpg" alt="Rooh">
+        <h3>Rooh</h3>
+        <p>₹420</p>
+        <button onclick="addToCart('Rooh',420)">Add To Cart</button>
+    </div>
+
+    <div class="book-card book-item">
+        <img src="images/playboy.jpg" alt="Must Date The Playboy">
+        <h3>Must Love The Playboy</h3>
+        <p>₹499</p>
+        <button onclick="addToCart('Must Love The Playboy',499)">Add To Cart</button>
+    </div>
+
+    <div class="book-card book-item">
+        <img src="images/love.jpg" alt="Twisted Love">
+        <h3>Twisted Love</h3>
+        <p>₹450</p>
+        <button onclick="addToCart('Twisted Love',450)">Add To Cart</button>
+    </div>
+
+    <div class="book-card book-item">
+        <img src="images/alchemist.jpg" alt="The Alchemist">
+        <h3>The Alchemist</h3>
+        <p>₹350</p>
+        <button onclick="addToCart('The Alchemist',350)">Add To Cart</button>
+    </div>
+
+</div>
+
+<h2>📚 Non-Fiction</h2>
+
+<div class="book-grid">
+
+    <div class="book-card book-item">
+        <img src="images/atomic-habits.jpg" alt="Atomic Habits">
+        <h3>Atomic Habits</h3>
+        <p>₹450</p>
+        <button onclick="addToCart('Atomic Habits',450)">Add To Cart</button>
+    </div>
+
+    <div class="book-card book-item">
+        <img src="images/rich.jpg" alt="Rich Dad Poor Dad">
+        <h3>Rich Dad Poor Dad</h3>
+        <p>₹399</p>
+        <button onclick="addToCart('Rich Dad Poor Dad',399)">Add To Cart</button>
+    </div>
+
+    <div class="book-card book-item">
+        <img src="images/think.jpg" alt="Think And Grow Rich">
+        <h3>Think And Grow Rich</h3>
+        <p>₹380</p>
+        <button onclick="addToCart('Think And Grow Rich',380)">Add To Cart</button>
+    </div>
+
+    <div class="book-card book-item">
+        <img src="images/money.jpg" alt="Psychology Of Money">
+        <h3>Psychology Of Money</h3>
+        <p>₹499</p>
+        <button onclick="addToCart('Psychology Of Money',499)">Add To Cart</button>
+    </div>
+
+</div>
+
+<h2>🌟 Self Help</h2>
+
+<div class="book-grid">
+
+    <div class="book-card book-item">
+        <img src="images/ik.jpg" alt="Ikigai">
+        <h3>Ikigai</h3>
+        <p>₹350</p>
+        <button onclick="addToCart('Ikigai',350)">Add To Cart</button>
+    </div>
+
+    <div class="book-card book-item">
+        <img src="images/deep.jpg" alt="Deep Work">
+        <h3>Deep Work</h3>
+        <p>₹420</p>
+        <button onclick="addToCart('Deep Work',420)">Add To Cart</button>
+    </div>
+
+    <div class="book-card book-item">
+        <img src="images/power.jpg" alt="The Power Of Habit">
+        <h3>The Power Of Habit</h3>
+        <p>₹390</p>
+        <button onclick="addToCart('The Power Of Habit',390)">Add To Cart</button>
+    </div>
+
+</div>
+
+<h2>💻 Technology</h2>
+
+<div class="book-grid">
+
+    <div class="book-card book-item">
+        <img src="images/learn.jpg" alt="Learning JavaScript">
+        <h3>Learning JavaScript</h3>
+        <p>₹550</p>
+        <button onclick="addToCart('Learning JavaScript',550)">Add To Cart</button>
+    </div>
+
+    <div class="book-card book-item">
+        <img src="images/python.jpg" alt="Python Crash Course">
+        <h3>Python Crash Course</h3>
+        <p>₹600</p>
+        <button onclick="addToCart('Python Crash Course',600)">Add To Cart</button>
+    </div>
+
+    <div class="book-card book-item">
+        <img src="images/clean.jpg" alt="Clean Code">
+        <h3>Clean Code</h3>
+        <p>₹650</p>
+        <button onclick="addToCart('Clean Code',650)">Add To Cart</button>
+    </div>
+
+</div>
+```
+
+</section>
+
+<footer>
+    <p>© 2026 BookVerse. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
